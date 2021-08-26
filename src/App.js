@@ -69,6 +69,8 @@ function App() {
       maskFilterImage.objectFit = "contain"
       maskFilterImage.onload = function () {
         filterImgRef.current = maskFilterImage
+        webcamRef.current.video.crossOrigin = "anonymous"
+        
         const camera = new Camera(webcamRef.current.video, {
           onFrame: async () => {
             await faceMesh.send({ image: webcamRef.current.video })
