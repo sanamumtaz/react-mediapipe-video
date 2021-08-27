@@ -2,13 +2,12 @@ import "./App.css"
 import React, { useRef, useEffect } from "react"
 import Webcam from "react-webcam"
 import { FaceMesh } from "@mediapipe/face_mesh"
-import * as Facemesh from "@mediapipe/face_mesh"
 import { Camera } from "@mediapipe/camera_utils"
 
 function App() {
   const webcamRef = useRef(null)
   const canvasRef = useRef(null)
-  const filterImgRef = useRef({current: null})
+  const filterImgRef = useRef({ current: null })
 
   function onResults(results) {
     const videoWidth = webcamRef.current.video.videoWidth
@@ -28,16 +27,21 @@ function App() {
     )
     if (results.multiFaceLandmarks.length > 0) {
       const keypoints = results.multiFaceLandmarks[0]
-      
-      const maskWidth = Math.abs(keypoints[234].x*videoWidth - keypoints[454].x*videoWidth)
-      const maskHeight = Math.abs(keypoints[234].y*videoHeight - keypoints[152].y*videoHeight) + 10
+
+      const maskWidth = Math.abs(
+        keypoints[234].x * videoWidth - keypoints[454].x * videoWidth
+      )
+      const maskHeight =
+        Math.abs(
+          keypoints[234].y * videoHeight - keypoints[152].y * videoHeight
+        ) + 10
       filterImgRef.current.width = `${maskWidth}`
       filterImgRef.current.height = `${maskHeight}`
-      
+
       canvasCtx.drawImage(
         filterImgRef.current,
-        keypoints[234].x*videoWidth,
-        keypoints[234].y*videoHeight - 10,
+        keypoints[234].x * videoWidth,
+        keypoints[234].y * videoHeight - 10,
         maskWidth,
         maskHeight
       )
@@ -70,7 +74,7 @@ function App() {
       maskFilterImage.onload = function () {
         filterImgRef.current = maskFilterImage
         webcamRef.current.video.crossOrigin = "anonymous"
-        
+
         const camera = new Camera(webcamRef.current.video, {
           onFrame: async () => {
             await faceMesh.send({ image: webcamRef.current.video })
@@ -87,7 +91,12 @@ function App() {
   return (
     <div className="App">
       <h2>Mediapipe Implementation</h2>
-      <Webcam ref={webcamRef} />
+      <Webcam
+        ref={webcamRef}
+        videoConstraints={{
+          facingMode: "user",
+        }}
+      />
       <canvas ref={canvasRef} className="output_canvas"></canvas>
     </div>
   )
