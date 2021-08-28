@@ -1417,6 +1417,11 @@
   resolved "https://registry.yarnpkg.com/@mediapipe/face_mesh/-/face_mesh-0.4.1629159166.tgz#93c8a1bf4b833a446747246251f6c5a436d458c4"
   integrity sha512-zGH5bUKscUFpDs9yT9go9BJouU92omfKSINmWdSGdr308j+IbLELsqTgCyq2Y4YlLwiig3XdV+5KMidIgL9Tgg==
 
+"@mediapipe/selfie_segmentation@^0.1.1629494320":
+  version "0.1.1629494320"
+  resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1629494320.tgz#dfdd0957f849a5a1d60b7044a5af8de752d2e52b"
+  integrity sha512-D3Ap13awSSkP2H+4DQse74H1KwVTN/P2QfdvB0FXL5+9C+uz4YGWB9aRHnBHsbk0ISO9LGJnbDn9iw16WPYTKQ==
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
