@@ -1407,10 +1407,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@mediapipe/camera_utils@^0.3.1620247984":
-  version "0.3.1620247984"
-  resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1620247984.tgz#576748af84b3174356acab37671c7ed33d3cb04b"
-  integrity sha512-CQEppbvSfgF5BaiA917+x/xHn8ttietc4+co/7RF98AqgjByGQHKLslog1eE7WekgBXYT/qc4z9F1HrOIfy3yQ==
+"@mediapipe/camera_utils@^0.3.1631210127":
+  version "0.3.1631210127"
+  resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1631210127.tgz#90782dde1d9318435d1df7d752824bee9325cf74"
+  integrity sha512-KxnjKM+8BmA6SvtVfQYUnY2fq5DBTIRfTCIK1WjNEwz/psip0D/luIKYag3tyfbEPXMxtuF+t0ctfh0JjXTVTg==
 
 "@mediapipe/face_mesh@^0.4.1629159166":
   version "0.4.1629159166"
