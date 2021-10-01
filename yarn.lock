@@ -1407,20 +1407,20 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@mediapipe/camera_utils@^0.3.1631210127":
-  version "0.3.1631210127"
-  resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1631210127.tgz#90782dde1d9318435d1df7d752824bee9325cf74"
-  integrity sha512-KxnjKM+8BmA6SvtVfQYUnY2fq5DBTIRfTCIK1WjNEwz/psip0D/luIKYag3tyfbEPXMxtuF+t0ctfh0JjXTVTg==
+"@mediapipe/camera_utils@^0.3.1632432234":
+  version "0.3.1632432234"
+  resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1632432234.tgz#60d859ac347506e2729f431afb8995b0a8ca8589"
+  integrity sha512-uGWOSd/1dNUka5/KkDs37pjYoHhFwUtQwQL/zhkQxZHAgYS8oCcz9vupa3pHthUzHDqzTw4XqB7teuoVRO+8/A==
 
 "@mediapipe/face_mesh@^0.4.1629159166":
   version "0.4.1629159166"
   resolved "https://registry.yarnpkg.com/@mediapipe/face_mesh/-/face_mesh-0.4.1629159166.tgz#93c8a1bf4b833a446747246251f6c5a436d458c4"
   integrity sha512-zGH5bUKscUFpDs9yT9go9BJouU92omfKSINmWdSGdr308j+IbLELsqTgCyq2Y4YlLwiig3XdV+5KMidIgL9Tgg==
 
-"@mediapipe/selfie_segmentation@^0.1.1629494320":
-  version "0.1.1629494320"
-  resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1629494320.tgz#dfdd0957f849a5a1d60b7044a5af8de752d2e52b"
-  integrity sha512-D3Ap13awSSkP2H+4DQse74H1KwVTN/P2QfdvB0FXL5+9C+uz4YGWB9aRHnBHsbk0ISO9LGJnbDn9iw16WPYTKQ==
+"@mediapipe/selfie_segmentation@^0.1.1632777926":
+  version "0.1.1632777926"
+  resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1632777926.tgz#67d37a53b0de89efc4a0e3b63332a4da3a6ad9c8"
+  integrity sha512-OSGhYaZsdOXKyY0JCueOflq3ICLNMrBekI2V8vShum8wuoH3xjfEM6NnIujwJ5SlTdZEXi7Up2koOILDgQbWyg==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
