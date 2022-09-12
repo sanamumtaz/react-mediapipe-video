@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mediapipe/camera_utils": "^0.3.1632432234",
+    "@mediapipe/camera_utils": "^0.3.1640029074",
     "@mediapipe/face_mesh": "^0.4.1629159166",
     "@mediapipe/selfie_segmentation": "^0.1.1632777926",
     "@testing-library/jest-dom": "^5.11.4",

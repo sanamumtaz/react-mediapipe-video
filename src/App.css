@@ -43,4 +43,5 @@ video, .output_canvas {
   right: 0;
   margin: auto;
   z-index: 2;
+  transform: rotateY(180deg);
 }
