@@ -4,15 +4,17 @@
   "private": true,
   "dependencies": {
     "@mediapipe/camera_utils": "^0.3.1640029074",
-    "@mediapipe/face_mesh": "^0.4.1629159166",
-    "@mediapipe/selfie_segmentation": "^0.1.1632777926",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
+    "@mediapipe/selfie_segmentation": "^0.1.1671057942",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
+    "react-device-detect": "^2.2.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "react-webcam": "^6.0.0"
+    "react-webcam": "^6.0.0",
+    "stackblur-canvas": "^2.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

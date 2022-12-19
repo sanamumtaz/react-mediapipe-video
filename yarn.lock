@@ -1412,15 +1412,15 @@
   resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1640029074.tgz#f8b50a2c0bf6a5f4d8cff0524ed71887c4639280"
   integrity sha512-jRV/Mp2lgqNYT68TeVRu/Xq+ptZO9F9vCjxzQsA3VM2r7oXg0TrnfO9De2KKOUTpt0p28dKHs625J8GdWjha8A==
 
-"@mediapipe/face_mesh@^0.4.1629159166":
-  version "0.4.1629159166"
-  resolved "https://registry.yarnpkg.com/@mediapipe/face_mesh/-/face_mesh-0.4.1629159166.tgz#93c8a1bf4b833a446747246251f6c5a436d458c4"
-  integrity sha512-zGH5bUKscUFpDs9yT9go9BJouU92omfKSINmWdSGdr308j+IbLELsqTgCyq2Y4YlLwiig3XdV+5KMidIgL9Tgg==
+"@mediapipe/face_mesh@^0.4.1633559619":
+  version "0.4.1633559619"
+  resolved "https://registry.yarnpkg.com/@mediapipe/face_mesh/-/face_mesh-0.4.1633559619.tgz#f917e4448e25bc375a905d1d910f1bca450c5e23"
+  integrity sha512-Vc8cdjxS5+O2gnjWH9KncYpUCVXT0h714KlWAsyqJvJbIgUJBqpppbIx8yWcAzBDxm/5cYSuBI5p5ySIPxzcEg==
 
-"@mediapipe/selfie_segmentation@^0.1.1632777926":
-  version "0.1.1632777926"
-  resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1632777926.tgz#67d37a53b0de89efc4a0e3b63332a4da3a6ad9c8"
-  integrity sha512-OSGhYaZsdOXKyY0JCueOflq3ICLNMrBekI2V8vShum8wuoH3xjfEM6NnIujwJ5SlTdZEXi7Up2koOILDgQbWyg==
+"@mediapipe/selfie_segmentation@^0.1.1671057942":
+  version "0.1.1671057942"
+  resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1671057942.tgz#525d06bb430427e85b90d19ba4e6b8416df87c5f"
+  integrity sha512-K0aR3L7r4DKfK71ZoAYZCyw1P17wqejpI2jaLlSbFo0Hi51jNHmiqw+SD/E1KskdnRFx2zRwW/VWoiY2H5cBwQ==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -9014,6 +9014,13 @@ react-dev-utils@^11.0.3:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
+react-device-detect@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-2.2.2.tgz#dbabbce798ec359c83f574c3edb24cf1cca641a5"
+  integrity sha512-zSN1gIAztUekp5qUT/ybHwQ9fmOqVT1psxpSlTn1pe0CO+fnJHKRLOWWac5nKxOxvOpD/w84hk1I+EydrJp7SA==
+  dependencies:
+    ua-parser-js "^1.0.2"
+
 react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -10087,6 +10094,11 @@ stack-utils@^2.0.2:
   dependencies:
     escape-string-regexp "^2.0.0"
 
+stackblur-canvas@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/stackblur-canvas/-/stackblur-canvas-2.5.0.tgz#aa87bbed1560fdcd3138fff344fc6a1c413ebac4"
+  integrity sha512-EeNzTVfj+1In7aSLPKDD03F/ly4RxEuF/EX0YcOG0cKoPXs+SLZxDawQbexQDBzwROs4VKLWTOaZQlZkGBFEIQ==
+
 stackframe@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.2.0.tgz#52429492d63c62eb989804c11552e3d22e779303"
@@ -10705,6 +10717,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+ua-parser-js@^1.0.2:
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.32.tgz#786bf17df97de159d5b1c9d5e8e9e89806f8a030"
+  integrity sha512-dXVsz3M4j+5tTiovFVyVqssXBu5HM47//YSOeZ9fQkdDKkfzv2v3PP1jmH6FUyPW+yCSn7aBVK1fGGKNhowdDA==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
